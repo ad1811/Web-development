@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background: blue;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+<h1>Register</h1>
+<strong>
+<form>
+	<label>
+	First Name:
+	<input type="text" name="firstname" placeholder="John" required>
+</label>
+<label>
+	Last Name:
+	<input type="text" name="lastname" placeholder="Smith" required>
+</label>
+<br>
+<label>
+	Male<input type="radio" name="gender" required>
+	Female<input type="radio" name="gender">
+	Other<input type="radio" name="gender">
+</label><br>
+<label>
+	Email:<input type="email" name="email" placeholder="your email" required>
+	Password:<input type="password" minlength="5" maxlength="10" required>
+</label>
+<br>
+Birthday:<select name="month">
+	<option>Month</option>
+	<option>Jan</option>
+	<option>Feb</option>
+	<option>Mar</option>
+</select>
+<select name="date">
+	<option>Date</option>
+	<option>18</option>
+	<option>19</option>
+	<option>20</option>
+</select>
+<select name="year">
+	<option>Year</option>
+	<option>1997</option>
+	<option>1998</option>
+	<option>1999</option>
+</select><br>
+I agree to the terms and conditions<input type="checkbox" required><br>
+<button>Submit</button>
+
+</form>
+</strong>
+</body>
+</html>
