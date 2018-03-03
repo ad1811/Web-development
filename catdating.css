@@ -1,0 +1,35 @@
+body{
+	background-image: url(https://lh3.googleusercontent.com/EOV3Vp8UowTnU5FLd-FcUJ_OdpC24ewxHf09ifjieWEAiqVGv_KgYDLwUKayNRGmYZ8=h900);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.text{
+	text-align: center;
+	margin-top: 15%;
+	/*color: white;*/
+	text-shadow: 0px 1px 2px grey;
+
+}
+
+.btntext
+{
+	color: black;
+}
+h1{
+	font-weight: 700;
+	font-size: 4em;
+}
+h4{
+	font-size: 1.1em;
+	font-weight: 100;
+}
+html{
+	height: 100%;
+}
+.hrg{
+	width:40%;
+	border: 0.5px solid white;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
