@@ -1,0 +1,28 @@
+.bg-light
+{
+	background-color: #ffcccc !important;
+}
+
+.btn-outline-success
+{
+	color: black;
+	border-color: black;
+}
+
+.h5
+{
+	font-size: 20px;
+	font-weight: 800;
+	color: #3333ff;
+}
+
+.red
+{
+	background-color: #ff3333;
+}
+
+.font
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
