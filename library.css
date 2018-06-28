@@ -54,6 +54,10 @@ body
 	background-size: cover;
     background-position: center;
 }
+.active
+{
+	color: white !important;
+}
 
 /*font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Roboto Slab', serif;
